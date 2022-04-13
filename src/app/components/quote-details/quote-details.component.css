@@ -1,0 +1,17 @@
+#buttons {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.details {
+    font-family: 'Poppins', sans-serif;
+    
+}
+.card-footer {
+    border: none;
+    background-color: transparent;
+}
+span#time {
+    float: right;
+}
