@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from './quotes';
+import { Quote } from '../quotes';
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  tittle = 'My quotes';
+  title = 'Enjoy the quotes';
   quotes: Quote[] = [
-    new Quote (1, "Velma", "Life", "You will face many challenges, never let yourself to accept defeat.", "MICHAEL LIKULU", new Date(2019,4,1),0,0),
-    new Quote (2, "Fact", "Programming", "Programming needs alot of practices and reserch", "SABTA CLAUSE", new Date(2020,5,10),0,0),
-    new Quote (3, "Mercy", "Religion", "Alwaysbe good all the time, it feels good being good. let the negative energy pass, it costs nothing. This is my religion","JOHN LUDWING CRAFT", new Date(2018,7,6),0,0),
-    new Quote (4, "John", "Hardwork", "Hardworkis a vorture on its own. Hardwork pays.", "CHINIA ACHEBE", new Date(2010,4,11),0,0),
-    new Quote (5, "Erick", "Love", "its a natural feeling towards someone in a different way. Love someone its healthy.", "AKOKO SIMBA", new Date(2016,8,2),0,0),
-    new Quote (6, "Emily", "Truth", "Stand firm even if you are alone", "Your peace of mind has to do with what you focus on. It has nothing to do with life. Empower yourself.", "BRUCE LEE", new Date(2015,7,10),0,0),
-  ]
-
+    new Quote (1, "Velma", "Life", "You will face many chalenges in life, but never let yourself be defeated.", "MICHAEL SIBUKIA", new Date(2020,5,3),0,0),
+    new Quote (2, "Peace", "Technology", "Any suffiently advanced technology is indistinguishable from magic.", "ATHUR MERLIN", new Date(2021,7,7),0,0),
+    new Quote (3, "Grace", "Religion", "When I do good, I feel good. When I do bad, I feel bad. That's my religion","CHINUA ACHEBE", new Date(2019,3,9),0,0),
+    new Quote (4, "John", "Tech and Life", "Technology by itself doesn't make leaders. Technology only amplifies leadership.", "AKOKO SIMBA", new Date(2022,10,5),0,0),
+    new Quote (5, "Mercy", "Trust", "Loving someone is giving them the power to break your heart, but trusting them not to.", "KEN WALIBORA", new Date(2018,5,7),0,0),
+    new Quote (6, "Dan", "Peace of Mind", "Your peace of mind has to do with what you focus on. It has nothing to do with life. Empower yourself.", "ERICK CHWANYO", new Date(2022,2,1),0,0),
+  ];
   // quotes: any;
   // get sortQuotes():any{
   //   return this.sortQuotes.sort((a: { datePosted: string | number | Date; }, b: { datePosted: string | number | Date; }) => {
@@ -39,7 +39,7 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  isplayInfo(index: any){
+  displayInfo(index: any){
     this.quotes[index].showInfo = !this.quotes[index].showInfo;
   }
 
