@@ -1,0 +1,39 @@
+<div class="container">
+    <h2 class="heading">Add a Quote</h2>
+    <form (ngSubmit)="addQuote()" #quotesForm="ngForm">
+        <div class="form-group">
+            <label for="name">Enter your Name</label>
+            <input type="text" required placeholder="Enter your name..." class="form-control name" [(ngModel)]="quoted.name" name="name" #name="ngModel" minlength="3">
+            <div [hidden]="name.value || name.pristine" class="alert alert-danger">
+                <p>
+                    Your name is required!
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="name">Quote Title</label>
+            <input type="text" required placeholder="Quote Title" class="form-control title" [(ngModel)]="quoted.title" name="title" #title="ngModel">
+            <div [hidden]="title.value || title.pristine" class="alert alert-danger">
+                <p>Title is required</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="quote">Quote</label>
+            <textarea required placeholder="Type your quote here..." class="form-control quote" rows="2" [(ngModel)]="quoted.quote" name="quote" #quote="ngModel"></textarea>
+            <div [hidden]="quote.value || quote.pristine" class="alert alert-danger">
+                <p>Type your Quote here</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="name">Quote Author</label>
+            <input type="text" required placeholder="Enter Author's name" class="form-control author" [(ngModel)]="quoted.author" name="author" #author="ngModel">
+            <div [hidden]="author.value || author.pristine" class="alert alert-danger">
+                <p>Author Name is required</p>
+            </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-sm btn-danger">Add Quote</button>
+        <br><br>
+    </form>
+    
+</div>
