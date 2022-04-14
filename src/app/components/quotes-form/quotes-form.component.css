@@ -1,20 +1,24 @@
 .container {
-    color: rebeccapurple;
+    color: rgb(108, 84, 133);
     text-align: center;
-    padding: 5px 5px;
+    padding: 10px 10px;
     width: 90%;
     font-family: 'Caveat', cursive;
     background-color: cadetblue;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
+    margin: auto;
 }
 .container h2.heading {
     font-size: 40px;
     font-weight: 500;
+    color: black;
+    padding: auto;
 }
 .form-group > label {
     font-size: 24px;
+    color: black;
 }
 form  input, textarea {
     width: 90%;

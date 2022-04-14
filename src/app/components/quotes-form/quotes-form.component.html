@@ -11,15 +11,15 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="name">Quote Title</label>
-            <input type="text" required placeholder="Quote Title" class="form-control title" [(ngModel)]="quoted.title" name="title" #title="ngModel">
+            <label for="name">Quote Tittle</label>
+            <input type="text" required placeholder="Quote Tittle" class="form-control title" [(ngModel)]="quoted.title" name="title" #title="ngModel">
             <div [hidden]="title.value || title.pristine" class="alert alert-danger">
                 <p>Title is required</p>
             </div>
         </div>
         <div class="form-group">
             <label for="quote">Quote</label>
-            <textarea required placeholder="Type your quote here..." class="form-control quote" rows="2" [(ngModel)]="quoted.quote" name="quote" #quote="ngModel"></textarea>
+            <textarea required placeholder="Type your quote here..." class="form-control quote" [(ngModel)]="quoted.quote" name="quote" #quote="ngModel"></textarea>
             <div [hidden]="quote.value || quote.pristine" class="alert alert-danger">
                 <p>Type your Quote here</p>
             </div>
