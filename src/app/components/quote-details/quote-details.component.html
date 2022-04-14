@@ -1,5 +1,5 @@
 <div class="details">
-    <h6 class="card-footer mb-2 ">Author: {{quora.author}}  <span id="time">Posted: {{quora.datePosted | dateCount}} days ago.</span></h6>
+    <h6 class="card-footer mb-2 ">Author: {{quora.author}}  <span id="time">Posted: {{quora.datePosted}} days ago.</span></h6>
     <div class="container-fluid" id="buttons">
         <button class="btn btn-sm btn-success" (click)="upvote()">{{quora.likes}} <i class="bi bi-hand-thumbs-up"></i></button>
         <button class="btn btn-sm btn-warning hate" (click)="downvote()">{{quora.dislikes}} <i class="bi bi-hand-thumbs-down"></i></button>

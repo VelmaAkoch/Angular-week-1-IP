@@ -15,7 +15,7 @@
                                 <app-quote-details  bind-quora="quote" (hasRead)="deleteQuote($event,i)"></app-quote-details>
                             </div>
                               
-                            <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span><span id="date"> on: <span id="datecolor">{{quote.datePosted |date:'short'}}</span></span></span>
+                            <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span><span id="date"> on: <span id="datecolor">{{quote.datePosted}}</span></span></span>
                         </div>
                     </div>
                 </div>

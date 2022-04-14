@@ -1,6 +1,19 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+By Velma Mukanga
+
+## Description
+This is an application where a user can view quotes, add, delete and/vote using thumbs-up or thumbs-down feature.
+
+## Contributors
+Velma Mukanga
+
+## Set Up 
+No sophisticated software/hardware requirements Internet Connection An internet device Live link to the application:
+
+## Technlogy
+HTML,CSS,Bootstrap,JavaScript and Angular CLI.
 
 ## Development server
 
