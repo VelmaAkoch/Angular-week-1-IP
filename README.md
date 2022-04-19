@@ -8,13 +8,13 @@ This is an application where a user can view quotes, add, delete and/vote using 
 
 ## link
 https://github.com/VelmaAkoch/Angular-week1-IP.git
-http://localhost:42847/
 
 ## Contributors
 Velma Mukanga
 
 ## Set Up 
 No sophisticated software/hardware requirements Internet Connection An internet device Live link to the application:
+
 
 ## Technlogy
 HTML,CSS,Bootstrap,JavaScript and Angular CLI.
