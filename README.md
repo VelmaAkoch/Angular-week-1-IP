@@ -7,7 +7,7 @@ By Velma Mukanga
 This is an application where a user can view quotes, add, delete and/vote using thumbs-up or thumbs-down feature.
 
 ## link
-https://github.com/VelmaAkoch/Angular-week1-IP.git
+https://github.com/VelmaAkoch/Quotes.git
 
 ## Contributors
 Velma Mukanga
